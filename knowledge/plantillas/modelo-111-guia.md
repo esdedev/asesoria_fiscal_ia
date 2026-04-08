@@ -79,3 +79,43 @@ La S.L. paga 600€ a Hacienda en concepto de retenciones IRPF de los tutores.
 - Si el tutor factura con retención del 15%: la S.L. le paga el 85% y el 15% va a Hacienda (111)
 - Si el tutor factura con retención del 7% (nuevo autónomo): la S.L. retiene menos
 - **La S.L. es responsable de ingresar las retenciones**: si no lo hacéis, la deuda es de la S.L.
+
+## Retenciones a administradores (cuando haya nómina)
+
+Cuando los co-CEOs cobren nómina como administradores de la S.L., las retenciones se declaran en este mismo modelo 111.
+
+### Tipo de retención para administradores
+- **General: 35%** (Art. 101.2 RIRPF)
+- **Reducido: 19%** si la cifra de negocios del ejercicio anterior <100.000€ (Art. 101.2.b RIRPF)
+- Para la S.L. nueva con Ley Startups + ERD: aplicar **19%** en los primeros ejercicios
+
+### Ejemplo práctico — Trimestre con tutores + nómina administradores
+
+#### Datos:
+- 2 administradores con nómina bruta mensual: 1.500€/mes × 3 meses = 4.500€ cada uno
+- Retención IRPF administradores: 19% (cifra negocio <100.000€)
+- 5 tutores autónomos con facturas totales: 4.000€ (retención 15%)
+
+#### Cálculo:
+```
+RENDIMIENTOS DEL TRABAJO (administradores):
+Casilla 01: 2 (nº perceptores)
+Casilla 02: 9.000€ (2 × 4.500€)
+Casilla 03: 1.710€ (19% de 9.000€)
+
+ACTIVIDADES PROFESIONALES (tutores):
+Casilla 07: 5 (nº perceptores)
+Casilla 08: 4.000€ (base)
+Casilla 09: 600€ (15% de 4.000€)
+
+RESULTADO:
+Casilla 28: 2.310€ (1.710 + 600)
+Casilla 30: 2.310€ A INGRESAR
+```
+
+### Relación con el Modelo 190 (resumen anual)
+
+Al cerrar el año, el Modelo 190 incluirá:
+- Administradores con clave **B.01** (rendimientos del trabajo — administradores)
+- Tutores con clave **G.01** (actividades profesionales) o **G.02** (nuevos autónomos al 7%)
+- La suma anual de retenciones del 190 debe coincidir con la suma de los 4 Modelos 111
