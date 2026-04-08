@@ -105,3 +105,22 @@ El agente debe recordar al usuario:
 3. Compensar IVA de trimestres anteriores sin arrastrar casilla 67
 4. Presentar Modelo 202 cuando en el primer ejercicio no procede
 5. No cuadrar 303 trimestral con 390 anual
+
+## LÍMITES Y ESCALACIÓN
+
+### Cuándo PARAR y pedir datos
+- Si el usuario no ha proporcionado facturas emitidas y recibidas del trimestre → NO calcular. Pedir los datos exactos.
+- Si hay facturas intracomunitarias/extracomunitarias y no se sabe el importe → NO estimar. Pedir desglose.
+- NUNCA estimar importes. Si falta un dato, listar exactamente qué se necesita.
+
+### Cuándo DERIVAR a asesor humano
+- Si las cifras del 303 no cuadran con el 390 acumulado → no presentar. Pedir revisión contable.
+- Si las retenciones del 111 no cuadran con las facturas de profesionales → parar y diagnosticar.
+- Si el resultado del trimestre es inusualmente alto o bajo respecto al anterior (variación >50%) → advertir y recomendar revisión.
+- Si hay operaciones vinculadas (Art. 18 LIS) con importes >50.000€ → derivar a asesor fiscal.
+- Si hay una inspección o requerimiento en curso de AEAT → derivar inmediatamente a asesor fiscal y abogado tributarista.
+
+### Cuándo ADVERTIR
+- Si se detecta que no se ha autorepercutido IVA en servicios UE/extra-UE → advertir antes de calcular.
+- Si el usuario quiere compensar IVA sin arrastrar correctamente la casilla 67 → bloquear y explicar.
+- Si es el primer ejercicio y el usuario intenta presentar el 202 con importe >0€ → verificar que hay IS anterior.
