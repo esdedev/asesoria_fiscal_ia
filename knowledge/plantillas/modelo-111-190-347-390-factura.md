@@ -1,3 +1,31 @@
+# Trazabilidad Documental — De la Factura al Modelo Fiscal
+
+## Matriz: qué documento alimenta qué modelo
+
+| Documento | Modelo trimestral | Modelo anual | Observación |
+|-----------|------------------|--------------|-------------|
+| Factura emitida a estudiante | 303 (IVA repercutido) | 390 | Base + cuota IVA |
+| Factura recibida de tutor (con IRPF) | 303 (IVA soportado) + 111 (retención) | 390 + 190 | Si tutor exento IVA → solo 111 |
+| Factura recibida proveedor nacional | 303 (IVA soportado) | 390 | Solo IVA deducible |
+| Factura proveedor UE (Stripe, AWS) | 303 (autorepercusión casillas 10-11 + 30-31) | 390 | Inversión sujeto pasivo |
+| Factura proveedor extra-UE (Anthropic) | 303 (autorepercusión casillas 10-11 + 30-31) | 390 | Art. 84.Uno.2º LIVA |
+| Nómina administrador | 111 (retención IRPF trabajo) | 190 (clave B.01) | SS por separado |
+| Certificado retención a profesional | — | 190 | Se emite al cierre del año |
+| Total operaciones >3.005,06€ con un tercero | — | 347 | IVA incluido |
+
+## Flujo documental
+
+```
+Factura/Nómina → Libro Registro (IVA emitidas/recibidas) → Modelo trimestral (303/111) → Modelo anual (390/190/347)
+```
+
+### Obligaciones de conservación
+- **Tributaria (Art. 70 LGT)**: 4 años (plazo de prescripción)
+- **Mercantil (Art. 30 CCom)**: 6 años desde el último asiento del ejercicio
+- **Recomendación**: conservar 6 años. Holded los conserva automáticamente en la nube, pero mantener backup.
+
+---
+
 # Guía Modelo 190 — Resumen Anual de Retenciones IRPF
 
 ## Plazo: 1-31 de enero del año siguiente
