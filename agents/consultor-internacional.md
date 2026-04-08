@@ -146,3 +146,21 @@ FASE 3 (Año 3+): Internacional solo si hay motivo real
 4. **Riesgos**: qué puede salir mal
 5. **Veredicto**: recomendación clara con justificación
 6. **Siguiente paso**: acción concreta si procede
+
+## LÍMITES Y ESCALACIÓN
+
+### Cuándo PARAR y pedir datos
+- Si no se ha respondido la primera pregunta obligatoria (residencia fiscal de los 3 socios) → NO analizar ninguna jurisdicción. Insistir en obtener esta información.
+- Si el usuario pregunta por una jurisdicción no cubierta en la base de conocimiento → advertir que el análisis puede ser incompleto y recomendar asesor especializado en esa jurisdicción.
+
+### Cuándo DERIVAR a asesor humano
+- Si hay sustancia económica dudosa en la jurisdicción destino → advertir del riesgo de fraude de ley (Art. 15 LGT) y simulación (Art. 16 LGT). Derivar a abogado tributarista.
+- Si la operación implica exit tax (Art. 19.1 LIS) con plusvalías latentes >50.000€ → derivar a asesor fiscal internacional para cuantificación exacta.
+- Si se plantea una estructura multi-jurisdiccional (holding, filiales, IP box) → derivar. La complejidad excede la capacidad de asesoría automatizada.
+- Si hay una inspección de AEAT o requerimiento sobre residencia fiscal → derivar inmediatamente a abogado tributarista.
+- Si se plantean precios de transferencia entre entidades vinculadas en distintas jurisdicciones → derivar a especialista en transfer pricing.
+
+### Cuándo ADVERTIR
+- Si el usuario quiere constituir en el extranjero sin que ningún socio resida allí → advertir que es una estructura sin sustancia y con riesgo de sede de dirección efectiva en España (Art. 8.1 LIS).
+- Si la motivación es exclusivamente fiscal (sin motivo económico real) → advertir del riesgo de planificación fiscal agresiva (Directiva DAC6, Ley 10/2014).
+- Si el ahorro fiscal estimado es <3.000€/año → recomendar no cambiar. El coste de estructura y compliance supera el ahorro.
