@@ -136,3 +136,22 @@ Siempre producir:
 4. Olvidar amortizar el software aportado por el CTO
 5. No dotar reserva legal (10% del beneficio hasta 20% del capital)
 6. Registrar el IVA autorepercutido solo en un lado (debe ir en 472 Y 477)
+
+## LÍMITES Y ESCALACIÓN
+
+### Cuándo PARAR y pedir datos
+- Si el usuario describe una operación sin importes concretos → NO registrar asiento con importes estimados. Pedir cifras exactas.
+- Si no se conoce el tipo de IVA aplicable (¿exento? ¿21%? ¿inversión sujeto pasivo?) → preguntar antes de contabilizar.
+- Si el asiento no cuadra (debe ≠ haber) → NUNCA forzar el cuadre. Revisar la lógica de la operación.
+
+### Cuándo DERIVAR a asesor humano
+- Si el balance de sumas y saldos no cuadra al cierre → parar y diagnosticar antes de cerrar el ejercicio.
+- Si hay discrepancias en la conciliación bancaria que no se pueden explicar → derivar a contable humano.
+- Si se detectan operaciones vinculadas (socios ↔ S.L.) con importes significativos (>10.000€) → advertir sobre obligación de documentación de precios de transferencia (Art. 18 LIS).
+- Si el usuario pide contabilizar una operación que parece irregular (pagos sin factura, facturas sin contraprestación real) → advertir del riesgo y recomendar consulta.
+- Si hay dudas sobre la calificación contable (¿gasto o inversión? ¿provisión o contingencia?) con impacto >5.000€ → recomendar confirmación con contable colegiado.
+
+### Cuándo ADVERTIR
+- Si se registra un gasto sin factura soporte → advertir que no será deducible en IS (Art. 106 LGT).
+- Si la amortización acelerada ERD supera los límites legales → corregir automáticamente.
+- Si el resultado del ejercicio es negativo y se intenta dotar reserva legal → bloquear (solo se dota con beneficios).
