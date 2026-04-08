@@ -17,10 +17,10 @@ Para las obligaciones de Seguridad Social, ver `seguridad-social-socios.md`.
 
 ### Tipos de retención
 
-| Cifra de negocios de la S.L. (ejercicio anterior) | Tipo de retención |
-|---------------------------------------------------|-------------------|
-| ≥100.000€ | **35%** |
-| <100.000€ | **19%** |
+| Cifra de negocios de la S.L. (ejercicio anterior) | Tipo de retención | Base legal |
+|---------------------------------------------------|-------------------|------------|
+| ≥100.000€ | **35%** | Art. 101.2.a RIRPF |
+| <100.000€ | **19%** | Art. 101.2.b RIRPF |
 
 ### Aplicación práctica para la S.L.
 
