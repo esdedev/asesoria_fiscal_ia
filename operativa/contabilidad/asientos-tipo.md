@@ -107,7 +107,18 @@ Si la S.L. asume la cuota:
     (572) Bancos                   380,00
 ```
 
-### 3.6 Factura de abogado (500€ + IVA, retención 15%)
+### 3.6 Nómina de administrador (ej: bruto 1.500€, retención IRPF 19%)
+```
+(640) Sueldos y salarios        1.500,00
+    (4751) HP ret. IRPF practicadas      285,00
+    (465) Remuneraciones pdte. pago    1.215,00
+
+(465) Remuneraciones pdte. pago  1.215,00
+    (572) Bancos                        1.215,00
+```
+Nota: el administrador NO cotiza en nómina (no hay cuenta 476 aquí). Cotiza por RETA — ver asiento 3.5.
+
+### 3.7 Factura de abogado (500€ + IVA, retención 15%)
 ```
 (623) Servicios profesionales  500,00
 (472) HP IVA soportado         105,00
